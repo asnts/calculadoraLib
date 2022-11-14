@@ -2,9 +2,8 @@ package com.ibm.calculadora;
 
 public class Calculadora {
 
-    public class Calculator {
 
-        public Calculator() {
+        public Calculadora() {
         }
 
         public double add(double firstNumber, double secondNumber) {
@@ -22,5 +21,5 @@ public class Calculadora {
         public double multiplication(double firstNumber, double secondNumber) {
             return firstNumber * secondNumber;
         }
-    }
+
 }
